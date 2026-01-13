@@ -92,8 +92,6 @@ Skills enable AI agents to perform specialized tasks consistently and reliably a
 
 ## Skill Categories
 
-This section is a taxonomy index: it standardizes naming and navigation, and helps contributors align new skills to consistent categories. When adding a skill, place it under `skills/<platform>/<category>/<skill-name>/` (see [skills/codex/](skills/codex/) and [skills/claude-code/](skills/claude-code/)).
-
 ### Document Processing
 
 Skills for creating, editing, analyzing, and transforming documents across various formats including Word, PDF, PowerPoint, Excel, Markdown, EPUB, and more.
@@ -278,7 +276,7 @@ Claude only loads what's needed for each task, keeping context usage efficient.
 mkdir -p ~/.config/claude-code/skills/
 
 # Copy skill folder to the skills directory
-cp -r your-skill-name ~/.config/claude-code/skills/
+cp -r your_skill_name ~/.config/claude-code/skills/
 
 # Verify the skill is recognized
 claude --list-skills
@@ -290,7 +288,7 @@ claude --list-skills
 mkdir -p .claude/skills/
 
 # Copy skill to project
-cp -r your-skill-name .claude/skills/
+cp -r your_skill_name .claude/skills/
 ```
 
 Skills in `.claude/skills/` are only available for that specific project, while skills in `~/.config/claude-code/skills/` are available globally.
@@ -314,7 +312,7 @@ Follow the shared template in [Creating Skills](#creating-skills) → [Basic Ski
 
 For docs, see [Resources](#resources) → [Official Documentation](#official-documentation).
 
-See: [skills/claude-code/](skills/claude-code/) for Claude Code-specific skill examples.
+See: [skills/claude_code/](skills/claude_code/) for Claude Code-specific skill examples.
 
 ---
 
@@ -345,7 +343,7 @@ For contributing, see [Contributing](#contributing).
 Each skill is organized as a folder containing:
 
 ```
-skill-name/
+skill_name/
 ├── SKILL.md          # Required: Skill instructions and metadata
 ├── scripts/          # Optional: Executable scripts
 ├── references/       # Optional: Reference documents/data

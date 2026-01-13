@@ -276,7 +276,7 @@ Claude 只載入每個任務所需的內容，保持上下文使用高效。
 mkdir -p ~/.config/claude-code/skills/
 
 # 將技能資料夾複製到技能目錄
-cp -r your-skill-name ~/.config/claude-code/skills/
+cp -r your_skill_name ~/.config/claude-code/skills/
 
 # 驗證技能是否被識別
 claude --list-skills
@@ -288,7 +288,7 @@ claude --list-skills
 mkdir -p .claude/skills/
 
 # 將技能複製到專案
-cp -r your-skill-name .claude/skills/
+cp -r your_skill_name .claude/skills/
 ```
 
 `.claude/skills/` 中的 Skills 僅適用於該特定專案，而 `~/.config/claude-code/skills/` 中的 Skills 全域可用。
@@ -312,7 +312,7 @@ cp -r your-skill-name .claude/skills/
 
 相關文件請參考「[資源](#資源)」的「[官方文件](#官方文件)」。
 
-參見：[skills/claude-code/](skills/claude-code/) 取得 Claude Code 專用技能範例。
+參見：[skills/claude_code/](skills/claude_code/) 取得 Claude Code 專用技能範例。
 
 ---
 
@@ -343,7 +343,7 @@ cp -r your-skill-name .claude/skills/
 每個技能組織為一個包含以下內容的資料夾：
 
 ```
-skill-name/
+skill_name/
 ├── SKILL.md          # 必需：技能指令和元數據
 ├── scripts/          # 可選：可執行腳本
 ├── references/       # 可選：參考文件/資料
