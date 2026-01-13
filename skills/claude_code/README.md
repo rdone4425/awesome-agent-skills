@@ -1,8 +1,6 @@
 # Claude Code Skills (Scaffold)
 
-Category-first folder layout for writing **Claude Code** Agent Skills.
-
-This directory currently contains **only empty category folders** (no shipped skills yet). Use it as a starting point for building and organizing your own skills.
+Category-first folder layout and conventions for writing **Claude Code** Agent Skills.
 
 ## Quick Start (Create a Skill)
 
@@ -88,4 +86,4 @@ See [CONTRIBUTING.md](../../CONTRIBUTING.md) for repository conventions and qual
 
 ## Security Note
 
-Only use skills from trusted sources. Skills may execute code and access local files—review before installing.
+Only use skills from trusted sources. Skills can run commands and access local files—review `SKILL.md` and any `scripts/` before installing.
