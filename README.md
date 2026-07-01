@@ -554,6 +554,7 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for deta
 
 ---
 
+- [Skill Hub](https://skill.442595.xyz/) — 5800+ curated AI Agent Skills for Claude Code, Codex, Cursor, Hermes & more across 22 categories.
 ## License
 
 This repository is licensed under the [MIT License](LICENSE).
